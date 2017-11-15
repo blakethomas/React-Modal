@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+.background {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(1, 1, 1, 0.7);
+}
+
+.textbox {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+  height: 15%;
+  width: 45%;
+  background-color: white;
+  border-radius: 0.3em;
+  border: 1px solid black;
+}
+
+.title {
+  text-align: center;
+}
+
+.page {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -40%);
+}
+
+.click {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -40%);
+}
